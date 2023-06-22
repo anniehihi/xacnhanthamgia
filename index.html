@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Đăng Kí Khoá Học Phở Quang Béo" />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/logo-beo.jpg" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link href="zalo.html" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Đăng Ký Khoá Học Phở Chuyên Sâu Quang Béo</title>
+    <script>
+      if (window.location.pathname === "/index.html") {
+        window.location.replace("/");
+      }
+    </script>
+  </head>
+  <body>
+    <div id="loading-overlay">
+      <div class="loader"></div>
+    </div>
+
+    <header class="header">
+      <a href="./index.html ">
+        <img class="logo" alt="Logo QuangBeo logo" src="/img/logo-beo.jpg" />
+      </a>
+
+      <nav class="main-nav">
+        <!-- <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">Trang chủ</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Liên hệ</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#cta"
+              >Để lại thông tin liên hệ</a
+            >
+          </li>
+        </ul> -->
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">ĐIỀN THÔNG TIN CÁ NHÂN</h2>
+
+              <form
+                class="cta-form"
+                id="sign-up"
+                method="POST"
+                action="https://sheetdb.io/api/v1/k9pxf1mymj78z"
+              >
+                <div>
+                  <label for="full-name">Họ và Tên</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Nguyễn Văn A"
+                    name="data[Ho va Ten]"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="phone">Số điện thoại</label>
+                  <input
+                    id="phone"
+                    type="text"
+                    placeholder="03737272"
+                    name="data[So dien thoai]"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="address">Địa chỉ</label>
+                  <input
+                    id="address"
+                    type="text"
+                    placeholder="VD: Đông Dư, Gia Lâm, Hà Nội"
+                    name="data[Cong viec]"
+                  />
+                </div>
+
+                <div>
+                  <label for="address">CMT/CCCD</label>
+                  <input
+                    id="timephone"
+                    type="text"
+                    placeholder="VD: 12588123123"
+                    name="data[Thoi gian nghe may]"
+                  />
+                </div>
+
+                <button type="submit" class="btn btn--form">
+                  XÁC NHẬN NGAY
+                </button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <!-- <p class="research">TÌM HIỂU THÊM VỀ TÔI</p> -->
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/logo-beo.jpg" />
+          </a>
+          <p class="copyright"></p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Địa chỉ</p>
+          <address class="contacts">
+            <p class="address">68 Giáp Hải, Đông Đư, Gia Lâm, Hà Nội</p>
+            <p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7826605747846!2d105.91107355070702!3d21.00134752100487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aed29e7fa3db%3A0x2096e99f7d38b3fb!2zTmcuIDY4IMSQLiBHacOhcCBI4bqjaSwgxJDDtG5nIETGsCBUaMaw4bujbmcsIMSQw7RuZyBExrAsIEdpYSBMw6JtLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1684552182256!5m2!1svi!2s"
+                width="300"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li class="footer-nav-link-fb">
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/profile.php?id=100092564492890"
+                ><ion-icon
+                  class="social-icon-fb"
+                  name="logo-facebook"
+                ></ion-icon
+              ></a>
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/profile.php?id=100092564492890"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li class="footer-nav-link-tt">
+              <a
+                class="footer-link"
+                href="https://www.tiktok.com/@dayphoquangbeo"
+                ><ion-icon class="social-icon-tt" name="logo-tiktok"></ion-icon
+              ></a>
+              <a
+                class="footer-link"
+                href="https://www.tiktok.com/@dayphoquangbeo"
+                >Tiktok</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li class="footer-nav-link-yt">
+              <a
+                class="footer-link"
+                href="https://www.youtube.com/channel/UC9mcPI8h4KRkciSzKOmLmoA"
+                ><ion-icon class="social-icon-yt" name="logo-youtube"></ion-icon
+              ></a>
+              <a
+                class="footer-link"
+                href="https://www.youtube.com/channel/UC9mcPI8h4KRkciSzKOmLmoA"
+                >Youtube
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li class="footer-nav-link-yt">
+              <a class="footer-link" href="https://zalo.me/0328666822"
+                ><img
+                  src="./img/logos/logo-zalo.png"
+                  class="social-icon-yt"
+                  name="logo-zalo"
+              /></a>
+              <a class="footer-link" href="https://zalo.me/0328666822">Zalo </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+          <div class="hotline-phone-ring-circle"></div>
+          <div class="hotline-phone-ring-circle-fill"></div>
+          <div class="hotline-phone-ring-img-circle">
+            <a href="tel:0328666822" class="pps-btn-img">
+              <img
+                src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png"
+                alt="Gọi điện thoại"
+                width="50"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var form = document.getElementById("sign-up");
+      var loadingOverlay = document.getElementById("loading-overlay");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Hiển thị hiệu ứng load
+        loadingOverlay.style.visibility = "visible";
+        loadingOverlay.style.opacity = 1;
+
+        fetch(form.action, {
+          method: "POST",
+          body: new FormData(document.getElementById("sign-up")),
+        })
+          .then((response) => response.json())
+          .then((html) => {
+            // Ẩn hiệu ứng load sau khi dữ liệu được xử lý
+            loadingOverlay.style.visibility = "hidden";
+            loadingOverlay.style.opacity = 0;
+
+            // Các xử lý tiếp theo
+            window.location.assign("money.html");
+          });
+      });
+    </script>
+  </body>
+</html>
