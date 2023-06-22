@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #90681e;
+  background-color: #7a8727;
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -80,7 +80,7 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #856017;
+  background-color: #32ad05;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
@@ -94,7 +94,7 @@
 /**************************/
 
 .section-hero {
-  background-color: #856017;
+  background-color: #32ad05;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -515,7 +515,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #90681e, #90681e);
+  background-image: linear-gradient(to right bottom, #7a8727, #7a8727);
   overflow: hidden;
 }
 
